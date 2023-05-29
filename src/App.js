@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import Login from "./components/Login";
+import Navigation from "./components/UI/Navigation";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const users = [{
+        email: 'alex@yahoo.com',
+        password: '1234567'
+    },
+    {
+        email: 'alex2@yahoo.com' , password: '1234567'
+    },
+        {
+        email: 'alex3@yahoo.com' , password: '1234567'
+        }
+    ]
+
+
+    return (<div>
+
+        <Login></Login>
+    </div>)
 }
 
 export default App;
