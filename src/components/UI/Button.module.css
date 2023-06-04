@@ -1,6 +1,8 @@
 .btn {
-    background: #0388fc;
+    background: #E4CCC7;
     border-radius: 10px;
     border: transparent;
     padding: 0.8rem;
+    width: 7rem;
+    color: red;
 }

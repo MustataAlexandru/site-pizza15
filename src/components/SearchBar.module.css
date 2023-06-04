@@ -1,0 +1,10 @@
+.searchBar input{
+border: none;
+    width: 25rem;
+    height: 2.8rem;
+    border-radius: 8px;
+}
+.searchBar input:focus {
+   outline: none;
+
+}

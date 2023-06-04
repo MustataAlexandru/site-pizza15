@@ -1,0 +1,10 @@
+.user_avatar {
+    color: black;
+    background-color: white;
+}
+
+img {
+    height:2.8rem;
+    width:2.8rem;
+    border-radius: 50%;
+}

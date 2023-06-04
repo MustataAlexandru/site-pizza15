@@ -1,6 +1,6 @@
-import styles from './App.module.css';
+
 import Login from "./components/Login";
-import Navigation from "./components/UI/Navigation";
+
 
 
 function App() {
@@ -20,7 +20,8 @@ function App() {
 
     return (<div>
 
-        <Login></Login>
+        <Login users={users}></Login>
+
     </div>)
 }
 
